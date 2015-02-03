@@ -195,6 +195,8 @@ window.onload = function() {
   var btn = document.getElementById('J_weixin');
   var tip = document.getElementById('weixin-tip');
   var close = document.getElementById('close');
+  alert(is_weixin);
+  alert(navigator.userAgent.toLowerCase);
   if (is_weixin) {
     btn.onclick = function(e) {
       tip.style.height = winHeight + 'px'; //兼容IOS弹窗整屏
